@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DataBase" representedClassName="DataBase" syncable="YES" codeGenerationType="class">
+        <attribute name="dateIn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dateOut" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="minutesOfPause" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="minutesOfWork" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="publicHoliday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="timeAccountStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vacation" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="workAtNight" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="DataBase" positionX="-63" positionY="-18" width="128" height="149"/>
+    </elements>
+</model>
